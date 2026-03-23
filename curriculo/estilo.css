@@ -1,0 +1,99 @@
+section{
+    max-width: 500px;
+    box-shadow: 2px 2px 7px blue;
+    border-radius: 15px;
+    margin: auto;
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: blue;
+    color: whitesmoke;
+    animation: animar alternate infinite 3s;
+}
+@keyframes animar{
+    0%{ box-shadow: 3px 3px 7px red;}
+    25%{ box-shadow: 3px 3px 7px rgb(153, 0, 255);}
+    50%{ box-shadow: 3px 3px 7px rgb(0, 255, 179);}
+75%{ box-shadow: 3px 3px 7px rgb(255, 0, 157);}
+   100%{ box-shadow: 3px 3px 7px rgb(255, 217, 0);}
+}
+body{
+    background-color: rgb(143, 147, 160);
+}
+ul{
+    list-style: none;
+    color: darkblue;
+}
+
+#redes ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#whatsapp{
+    color: aqua;
+}
+#youtube{
+    color: blueviolet;
+}
+#instagram{
+    color: chocolate;
+}
+#linkedin{
+    color: deeppink;
+}
+#whatsapp,#youtube,#instagram,#linkedin{
+    font-size: 25px;
+  
+}
+.menu{
+    background-color: aqua;
+}
+.menu ul li{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    margin: 10px;
+}
+.menu ul li a{
+    color: blue;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    font-weight: bold;
+    color: chartreuse;
+}
+.menuicone{
+    display: none;
+}
+@media(max-width: 1050px){
+    .menuicone{
+        display: block;
+        color: blue;
+        text-align: left;
+        font-size: 18px;
+        padding: 10px;
+    }
+    .menu ul{
+        display: none;
+    }
+    section{
+        max-width: 80%;
+        font-size: 30px;
+    }
+    ul.mostrarmenu{
+        display: inline-block;
+    }
+    .menu ul li{
+        width: 100%;
+    }
+}
+.painel{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}

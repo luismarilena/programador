@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <title>site curriculo</title>
+        <link rel="stylesheet" href="estilo.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <header>
+            <nav class="menu">
+                <div class="menuicone">&#9776 menu</div>
+                <img src="">
+                <i class="fa-brands fa-android fa-2xl" style="color: rgb(21, 65, 143);"></i>
+                ><ul>
+                    <li><a href="#inicio">pessoal</a></li>
+                    <li><a href="#formação">formação</a></li>
+                    <li><a href="#experiência">experiência</a></li>
+                    <li><a href="#redes">redes</a></li>
+                    <li><a href="#endereco">endereço</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="inicio" data-aos="flip-left">
+            <div class="painel">
+            <div>
+
+                <img width="200" src="https://compactaprint.com.br/wp-content/uploads/2025/03/10-Receitas-de-Salgados-e-Doces-para-Iniciar-seu-Negocio.jpg">
+            </div>
+            <div>
+
+                <h2>luis claudio ferreira cruz</h2>
+                <p>programador full stack</p>
+                <h3>informações pessoais</h3>
+                <ul>
+                    <li>telefone: 4002-8922</li>
+                    <li>email: luis.6148@aluno.pr.senac.br</li>
+                </ul>
+            </div>
+
+            </div>
+        </section>
+        <section id="formação" data-aos="flip-left">
+            <h3>formação</h3>
+            <table border="1">
+                <tr>
+                    <th>curso</th>
+                    <th>instituição</th>
+                    <th>período</th>
+                    <th>carga horária</th>
+                </tr>
+                <tr>
+                    <td>programador de sistemas</td>
+                    <td>senac</td>
+                    <td>11/02/2026 a 15/06/2026</td>
+                    <td>200 horas</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="experiência" data-aos="flip-left">
+            <table border="1">
+                <tr>
+                    <th>empresa</th>
+                    <th>função</th>
+                    <th>período</th>
+                </tr>
+                <tr>
+                    <td>senac</td>
+                    <td>instrutor de tecnologia</td>
+                    <td>2023 a 2026</td>
+                </tr>
+            </table>
+        </section>
+        <section id="redes">
+            <h3>redes sociais</h3>
+            <ul>
+                <li><a href=""><i id="whatsapp" class="fa-brands fa-whatsapp"></i>whatsapp</a></li>
+                <li><a href=""><i id="youtube" class="fa-brands fa-square-youtube"></i>youtube</a></li>
+                <li><a href=""><i  id="instagram" class="fa-brands fa-square-instagram"></i>instagram</a></li>
+                <li><a href=""><i id="linkedin" class="fa-brands fa-linkedin-in"></i>linkedin</a></li>
+            </ul>
+        </section>
+        <section>
+            <h3>endereço</h3>
+            <ul>
+                <li>av.fioravante josé montanher</li>
+                <li>nº 576</li>
+                <li>bairro: centro</li>
+            </ul>
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14715.711011823965!2d-52.992187300000005!3d-22.768062299999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x948d976e75aee95b%3A0x25a26692d8a4e69d!2sPizzaria%20Almeida!5e0!3m2!1spt-BR!2sbr!4v1772473202011!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <footer>
+            <p>criado por luis</p>
+        </footer>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script><script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+  AOS.init();
+</script>
+<script>
+    var botão= document.querySelector('.menuicone');
+    var listamenu= document.querySelector('.menu ul');
+
+    botão.addEventListener('click',function(){
+        listamenu.classList.toggle('mostrarmenu')
+    })
+</script> 
+    </body>
+</html>

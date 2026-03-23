@@ -1,0 +1,18 @@
+body{
+        background-color: rgb(204, 93, 28);
+    }
+    p{
+        color: fuchsia;
+    }
+    img{
+        width: 400px;
+    }
+    .batateiro{
+        max-width: 400px;
+        filter:contrast(2);
+        box-shadow: 3px 3px 10px blue;
+
+    }
+    .batateiro:hover{
+        scale:1.1;
+    }
